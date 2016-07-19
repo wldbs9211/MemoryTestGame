@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.jiyun.jiyun.memorytest.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="50dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Start"
+        android:id="@+id/StartButton"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#415DAE"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Ranking"
+        android:id="@+id/RankingButton"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#415DAE"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="My Rank"
+        android:id="@+id/MyRankButton"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#415DAE"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Exit"
+        android:id="@+id/ExitButton"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:background="#415DAE"/>
+</LinearLayout>

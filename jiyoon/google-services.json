@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "409388887871",
+    "firebase_url": "https://memorytest-561d9.firebaseio.com",
+    "project_id": "memorytest-561d9",
+    "storage_bucket": "memorytest-561d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409388887871:android:6253f9ddd5d9324a",
+        "android_client_info": {
+          "package_name": "com.jiyun.jiyun.memorytest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409388887871-p38ijg0kj6j2mdp5um3ot71gh3u2m2ra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMloyBY5D57n9fLayMaJSPEzw52nyrIrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

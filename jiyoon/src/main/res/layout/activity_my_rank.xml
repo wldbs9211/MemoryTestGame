@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="My Information"
+        android:textSize="15pt"
+        android:textColor = "#415DAE"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/textview_border"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+        <TextView
+            android:id="@+id/myName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="test_name"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Record"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+        <TextView
+            android:id="@+id/myRecord"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="02:13"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Rank"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+        <TextView
+            android:id="@+id/myRank"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Try Count"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+        <TextView
+            android:id="@+id/myTryCount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="83"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="Success Count"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+        <TextView
+            android:id="@+id/mySuccessCount"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="21"
+            android:textSize="15pt"
+            android:textColor = "#415DAE"
+            android:background="@drawable/textview_border"/>
+    </LinearLayout>
+
+
+</LinearLayout>
